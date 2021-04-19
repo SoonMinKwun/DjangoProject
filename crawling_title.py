@@ -12,7 +12,7 @@ class Crawling_title:
         html = requests.get(plain).text
         soup = BeautifulSoup(html, 'html.parser')
         posts = soup.find_all('div', {'class' : 'C($c-fuji-grey-l) Mb(2px) Fz(14px) Lh(20px) Pend(8px)'})
-        #posts 의 type 는 beautifulsoup.resultSet  () -> texxt.strip()
+        #posts 의 type 는 beautifulsoup.resultSet  () -> text.strip()
         for i in posts:
             result.append(i.text.strip())
-        return result    
+        return result
