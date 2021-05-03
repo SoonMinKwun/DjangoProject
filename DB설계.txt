@@ -1,0 +1,9 @@
+종목코드 (stock_ticker)
+주가 (stock_price)
+종목토론글 (stock_talk)
+날짜 (stock_date)
+표정(분석결과) (stock_emo)
+
+회원 email (mem_email)
+회원 pw (mem_pw)
+회원 이름 (mem_name)
