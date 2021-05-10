@@ -2,9 +2,14 @@ import numpy as np
 import tensorflow as tf
 import pickle
 import re
+import usingDf
+
+comments=[]
+comments = usingDf.Crawling_comment.get_comment()
 
 # Your input sentence
-sentence = ['When stole book in class and the teacher caught me the rest of the class laughed at my attempt ']
+#sentence = ['Im so proud of you']
+sentence = [comments[0]]
 
 print("[INFO]: Loading Classes")
 # Load class names
@@ -66,6 +71,7 @@ sentence_padded = tf.keras.preprocessing.sequence.pad_sequences(sentence_process
 print("""[INFO]: Prediction\n\t{}""".format(sentence[0]))
 # Get prediction for sentence
 result = model.predict(sentence_padded)
+print(result)
 print("-"*20)
 # Show prediction
 print("[INFO]: Emotion class for given text is: {}".format(classNames[np.argmax(result)]))
