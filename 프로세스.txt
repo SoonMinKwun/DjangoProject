@@ -1,10 +1,13 @@
 주식 종목 엑셀파일에서 시가총액순으로 종목 100개 추출(후에 지수추가예정) -> 야후 파이낸셜 크롤링 -> 감정분석 -> MongoDB 넣어 -> django로 출력
 
+감정분석 프로세스 : crawling_title.py -> usingDf.py -> opinion_mining.py -> stock_init.py
+
 requests로 일단 주소상에 html추출, soup로 클래스 이름 따서 원하는 부분 추출
 
 클래스사용 : http://pythonstudy.xyz/python/article/19-%ED%81%B4%EB%9E%98%EC%8A%A4
 피클 사용 : https://korbillgates.tistory.com/173
 불용문자제거 : https://www.delftstack.com/ko/howto/python/remove-special-characters-from-string-python/
+리스트를 문자열로 합치기 : https://wikidocs.net/15559
 
 크롤링: requests, beautiful soup
 간단한 css

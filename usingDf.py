@@ -7,7 +7,7 @@ stock_xlsx.sort_values(by = '시가총액' , ascending= False  ,inplace = True )
 
 
 
-#크롤링 추출하는 Class
+# 크롤링 추출하는 Class
 class Crawling_comment:
     def get_comment():
         comment = []
