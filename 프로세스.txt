@@ -8,7 +8,9 @@ requests로 일단 주소상에 html추출, soup로 클래스 이름 따서 원�
 피클 사용 : https://korbillgates.tistory.com/173
 불용문자제거 : https://www.delftstack.com/ko/howto/python/remove-special-characters-from-string-python/
 리스트를 문자열로 합치기 : https://wikidocs.net/15559
-
+리스트와 for,while : https://dojang.io/mod/page/view.php?id=2283
+pymongo : https://m.blog.naver.com/PostView.nhn?blogId=itinstructor&logNo=221465841357&proxyReferer=https:%2F%2Fwww.google.com%2F
+개꿀팁 :  enumurate , zip , dic.items()
 크롤링: requests, beautiful soup
 간단한 css
 pandas 모듈: dataframe, read_excel, fillna'
