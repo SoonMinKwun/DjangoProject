@@ -1,3 +1,8 @@
+'''
+이 파일은 크롤링을 실행하는 파일입니다. 종목별 코멘트 1페이지(20개의 코멘트)와 종목명(1개)을 포함하여
+총 21개의 값을 가지고 있는 리스트를 추출하는 파일입니다.
+'''
+
 from bs4 import BeautifulSoup
 import requests
 import re

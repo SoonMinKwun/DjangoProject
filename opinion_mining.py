@@ -1,3 +1,7 @@
+'''
+이 파일은 감정분석 모델을 돌리는 파일입니다.
+'''
+
 import numpy as np
 import pandas as pd
 import tensorflow as tf
