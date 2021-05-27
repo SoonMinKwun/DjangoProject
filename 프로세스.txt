@@ -13,6 +13,9 @@ pymongo : https://m.blog.naver.com/PostView.nhn?blogId=itinstructor&logNo=221465
 데이터프레임이용해서 딕셔너리 비교하기 : https://hashcode.co.kr/questions/11533/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%95%88%EC%9D%98-%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC-%EC%A7%88%EB%AC%B8%EC%9E%85%EB%8B%88%EB%8B%A4
 데이터프레임을 딕셔너리로 변환 : https://seong6496.tistory.com/109 , https://www.python2.net/questions-578139.htm
 zip : https://www.daleseo.com/python-zip/
+mongoexport : https://docs.mongodb.com/database-tools/mongoexport/#mongodb-binary-bin.mongoexport
+-명령어 예시 : mongoexport --collection=Stock_Emo_App_stock --db=Stock_Emo_DB --out=C:\Users\Sean\Desktop\stocks.csv
+django-mongo-auth : https://www.youtube.com/watch?v=Y6pJV0dDl0M
 
 @개꿀팁 :  enumurate , zip , dic.items()
 크롤링: requests, beautiful soup

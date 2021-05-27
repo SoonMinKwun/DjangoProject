@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Stock_Emo_App',    # Stock_Emo_App 추가
+    'common.apps.CommonConfig', # common app 추가
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'Stock_Emo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -87,7 +88,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'Stock_Emo_DB',
-        }
+    }
 }
 
 # Password validation
@@ -127,3 +128,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join('static'),
+]
+
+# 로그인 성공후 이동하는 URL
+LOGIN_REDIRECT_URL = '/'
+# 로그아웃 성공후 이동하는 URL
+LOGOUT_REDIRECT_URL = '/'

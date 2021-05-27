@@ -17,6 +17,6 @@ stock_xlsx.sort_values(by = '시가총액' , ascending= False  ,inplace = True )
 class Crawling_comment:
     def get_comment():
         comment = dict()    # 종목명이랑 크롤링한 내용을 딕셔너리로 분류
-        for stock_code in stock_xlsx['종목코드'][:20]:
+        for stock_code in stock_xlsx['종목코드'][:100]:
             comment[stock_code] = crawling_title.Crawling_title(stock_code).get_comment()   
         return comment
