@@ -5,17 +5,20 @@
     <table class="table">
         <thead>
         <tr class="thead-dark">
-            <th>번호</th>
-            <th>제목</th>
-            <th>작성일시</th>
+            <th>종목명</th>
+            <th>감정</th>
+            <th>종토방</th>
         </tr>
         </thead>
         <tbody>
-        <form action="" method="post">
-        {% csrf_token %}
-        <textarea name="content" id="content" rows="15"></textarea>
-        <input type="submit" value="답변등록">
-        </form>
+            {% for stock in stockData %}
+            <h1>Stock_Emo!</h1>
+            <ul>
+                <li>{{ stock.stock }}</li>
+                <li>{{ stock.feeling }}</li>
+                <li>{{ stock.comments }}</li>
+            </ul>
+            {% endfor %}
         </tbody>
     </table>
 </div>

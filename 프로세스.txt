@@ -16,6 +16,8 @@ zip : https://www.daleseo.com/python-zip/
 mongoexport : https://docs.mongodb.com/database-tools/mongoexport/#mongodb-binary-bin.mongoexport
 -명령어 예시 : mongoexport --collection=Stock_Emo_App_stock --db=Stock_Emo_DB --out=C:\Users\Sean\Desktop\stocks.csv
 django-mongo-auth : https://www.youtube.com/watch?v=Y6pJV0dDl0M
+Json : https://velog.io/@surim014/JSON%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
+장고, 몽고디비 값 꺼내기 : https://dev-shin.tistory.com/m/entry/Django%EC%9E%A5%EA%B3%A0-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-2-Json-Html-MongoDB
 
 @개꿀팁 :  enumurate , zip , dic.items()
 크롤링: requests, beautiful soup
