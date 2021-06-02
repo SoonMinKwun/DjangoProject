@@ -133,6 +133,6 @@ STATICFILES_DIRS = [
 ]
 
 # 로그인 성공후 이동하는 URL
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/Stock_Emo_App'
 # 로그아웃 성공후 이동하는 URL
-LOGOUT_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/Stock_Emo_App'
