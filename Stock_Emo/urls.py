@@ -18,7 +18,7 @@ from django.urls import path, include
 from Stock_Emo_App import views
 
 urlpatterns = [
-    path('', views.index, name='index'),  # '/' 에 해당되는 path
+    path('', views.all_stocks, name='index'),  # '/' 에 해당되는 path
     path('admin/', admin.site.urls),
     path('Stock_Emo_App/', include('Stock_Emo_App.urls')),
     path('common/', include('common.urls')),

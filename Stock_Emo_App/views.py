@@ -5,8 +5,8 @@ from django.template import loader
 from Stock_Emo_App.Load_Stock import Load_Stock
 
 
-def index(request):
-    return render(request, 'Stock_Emo_App/main.html')
+# def index(request):
+#     return render(request, 'Stock_Emo_App/main.html')
  
 def specific_stock(request, stock):
     def get():
