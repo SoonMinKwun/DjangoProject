@@ -1,3 +1,7 @@
+'''
+이 파일은 DB에 있는 값을 메인페이지에 불러오기 위한 기능을 담은 파일입니다.
+'''
+
 import pymongo
  
 class Load_Stock:
