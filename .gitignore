@@ -1,3 +1,4 @@
 venv/
 Stock_Emo_App/__pycache__
+Stock_Emo_App/migrations
 Stock_Emo/__pycache__
